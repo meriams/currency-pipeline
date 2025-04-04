@@ -19,4 +19,6 @@ Projektet er bygget med fokus på struktur, automatisering og real-world data wo
 
 ## 📁 Projektstruktur
 
+```
 currency-pipeline/ ├── scripts/ │ ├── fetch_data.py # Henter valutadata fra Nationalbankens XML-API │ └── load_data.py # Indlæser data i en SQLite-database ├── db/ │ └── exchange_rates.db # Lokal database med valutakurser ├── run_pipeline.py # Kører hele pipelinen ├── read_db.py # Læser og viser data fra databasen ├── requirements.txt # Afhængigheder └── README.md # Projektbeskrivelse
+```
